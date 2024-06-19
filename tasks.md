@@ -10,17 +10,17 @@
 
 ## what should wee keep in mind?
 [ ] users cant view others peoples notes
-[ ] notes should only be public once sent
-[ ] notes should be secure as possible for public-facing notes
-    [ ] use uuids
+[x] notes should only be public once sent
+[x] notes should be secure as possible for public-facing notes
+    [x] use uuids
 [ ] notes should only be delete by the author 
 
 ## what are things we are learning?
-[ ] laravel breeze
-[ ] models
-[ ] migrations
+[x] laravel breeze
+[x] models
+[x] migrations
 [ ] emails
 [ ] backgrounds jobs, queues, cron
-[ ] routing
-[ ] policies
-[ ] livewire volt
+[x] routing
+[x] policies
+[x] livewire volt

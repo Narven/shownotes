@@ -28,6 +28,10 @@ class Note extends Model
     return $this->belongsTo(User::class);
   }
 
+  protected $casts = [
+    'is_published' => 'boolean'
+  ];
+
   // public function publishedNotes(User $user) {
   //   return $this->where
   // }

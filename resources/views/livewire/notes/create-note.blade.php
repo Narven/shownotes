@@ -25,7 +25,7 @@ new class extends Component {
                 'body' => $this->body,
                 'recipient' => $this->recipient,
                 'send_date' => $this->sendDate,
-                'is_published' => false,
+                'is_published' => true,
             ]);
 
         redirect(route('notes.index'));

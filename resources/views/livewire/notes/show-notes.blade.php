@@ -41,7 +41,7 @@ new class extends Component {
                                 <p>{{ Str::limit($note->body, 30) }}</p>
                             </div>
                             <div class="text-xs text-gray-500">
-                                {{ \Carbon\Carbon::parse($note->sent_date)->format('d-M-Y') }}
+                                {{ \Carbon\Carbon::parse($note->send_date)->format('d-M-Y') }}
                             </div>
                         </div>
                         <div class="flex items-end justify-between mt-4 space-x-1">
